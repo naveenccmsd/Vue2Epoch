@@ -1,0 +1,36 @@
+{
+  "name": "vue2-epoch",
+  "version": "0.0.13",
+  "description": "The list of epoch filters for Vue.js 2.*",
+  "main": "dist/vue2-epoch.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack src/index.js dist/vue2-epoch.js --output-library-target umd",
+    "dev": "node_modules/.bin/webpack src/index.js dist/vue2-epoch.js --output-library-target umd --watch",
+    "test": "node_modules/.bin/karma start test/karma.conf.js --single-run --no-auto-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/naveenccmsd/vue2-epoch.git"
+  },
+  "keywords": [
+    "vuejs",
+    "vue",
+    "filters",
+    "vue2-epoch"
+  ],
+  "author": "Naveen",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "6.4.1",
+    "babel-preset-env": "1.6.0",
+    "jasmine": "2.8.0",
+    "karma": "1.7.1",
+    "karma-jasmine": "1.1.0",
+    "karma-phantomjs-launcher": "1.0.4",
+    "karma-webpack": "1.8.1",
+    "uglify-es": "3.0.28",
+    "webpack": "3.5.5"
+  },
+  "dependencies": {}
+}
